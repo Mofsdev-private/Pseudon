@@ -1,3 +1,9 @@
+import firebaseConfig from './firebase-config.js';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/database';
+
+
 // Get the current user's ID
 const currentUser = firebase.auth().currentUser;
 const currentUserId = currentUser.uid;

@@ -1,3 +1,11 @@
+import firebaseConfig from './firebase-config.js';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/database';
+
+
+
+
 // Get the name form element
 const nameForm = document.getElementById('nameForm');
 
